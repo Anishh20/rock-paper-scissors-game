@@ -8,7 +8,6 @@ A simple interactive Rock Paper Scissors game built with HTML, CSS, and JavaScri
 
 - Play against the computer.
 - Keeps track of scores.
-- Simple and responsive design.
 - Fun and easy to play.
 
 ---

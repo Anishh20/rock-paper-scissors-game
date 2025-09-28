@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+    <h1>Rock Paper scissors Game </h1>
+    <br>
+    <br>
+    <div>
+        <button onclick="
+    playGame('rock')
+    " class="Rock-button button-size"><img src="images/rock.webp" alt="rock" srcset=""></button>
+
+        <button onclick="
+
+    playGame('paper')
+    " class="Paper-button button-size"><img src="images/paper.webp" alt="paper" srcset=""></button>
+
+
+        <button onclick="
+    playGame('scissors')
+    " class="Scissors-button button-size"><img src="images/scissors.webp" alt="scissors" srcset=""></button>
+    </div>
+
+    <p class="result"></p>
+    <p class="move"></p>
+
+    <p class="scoreDisplay"></p>
+
+    <button onclick='
+    score.wins=0;
+    score.draw=0;
+    score.loss=0;
+    updateScore()
+
+    localStorage.removeItem("score")
+    ' class="reset-button">Reset</button>
+    </main>
+
+    <footer>
+        © 2025 My Website | <span>Created by Anish</span>
+    </footer>
+
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>

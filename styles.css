@@ -1,0 +1,60 @@
+body,html {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    margin-left: 1rem;
+    flex:1;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-size {
+    height: 17rem;
+    width: 17rem;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scoreDisplay,
+.result,
+.move {
+    font-size: 1.5rem;
+}
+
+.reset-button {
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: large;
+}
+
+footer {
+    background: #222;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+footer span:hover {
+    text-decoration: underline;
+}
